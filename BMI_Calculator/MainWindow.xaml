@@ -1,0 +1,25 @@
+﻿<Window x:Class="BMI_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BMI_Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="538.78" Width="706.725">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="241*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label1" Content="Body Mass Index Calculator" HorizontalAlignment="Left" Margin="218,68,0,0" VerticalAlignment="Top" Width="287" FontFamily="Segoe UI Semibold" FontSize="22" Background="Transparent"/>
+        <Label x:Name="label2" Content="Enter your weight :" HorizontalAlignment="Left" Margin="153,181,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="16" Width="148"/>
+        <Label x:Name="label3" Content="Enter your height :" HorizontalAlignment="Left" Margin="153,257,0,0" VerticalAlignment="Top" Width="135" FontFamily="Segoe UI Semibold" FontSize="16"/>
+        <TextBox x:Name="Textbox1" HorizontalAlignment="Left" Height="31" Margin="440,181,0,0" TextWrapping="Wrap" Text="Weight" VerticalAlignment="Top" Width="120" FontFamily="Segoe UI Semibold" FontSize="14" Opacity="0.5"/>
+        <TextBox x:Name="Textbox2" HorizontalAlignment="Left" Height="31" Margin="440,257,0,0" TextWrapping="Wrap" Text="Height" VerticalAlignment="Top" Width="120" FontFamily="Segoe UI Semibold" FontSize="14" Opacity="0.5" OpacityMask="Black"/>
+        <Button Content="Submit" HorizontalAlignment="Left" Height="30" Margin="302,314,0,0" VerticalAlignment="Top" Width="120" FontFamily="Segoe UI Semibold" FontSize="16" OpacityMask="#FF5F4545" Click="btn_bmi"/>
+        <Label x:Name="label4" Content="Result :" HorizontalAlignment="Left" Margin="153,378,0,0" VerticalAlignment="Top" Width="67" FontFamily="Segoe UI Semibold" FontSize="16"/>
+        <Label x:Name="label5" Content="" HorizontalAlignment="Left" Margin="250,378,0,0" VerticalAlignment="Top" Width="144" FontFamily="Segoe UI Semibold" FontSize="16"/>
+        <Label x:Name="label6" Content="" HorizontalAlignment="Left" Margin="288,113,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
